@@ -1,0 +1,134 @@
+{
+    "1366456386883551263": {
+        "notion_url": "https://www.notion.so/67a17792acae44b899e79276f799c0aa?v=23076765dec0471981f97a0f420549f0&source=copy_link",
+        "create_properties": [
+            "Nome",
+            "Status",
+            "Propriedade1",
+            "Tipo",
+            "Autor",
+            "Envolvidos"
+        ],
+        "display_properties": [
+            "Nome",
+            "Status",
+            "Tipo",
+            "Propriedade1",
+            "Envolvidos"
+        ],
+        "channels": {
+            "1392629969040969901": {
+                "notion_url": "https://www.notion.so/22c3bffc59298038b8b5ffa3c9507cf7?v=22c3bffc59298038b540000ca1e33f27&source=copy_link",
+                "create_properties": [
+                    "Nome",
+                    "Prioridade",
+                    "Status",
+                    "Tags",
+                    "Respons\u00e1vel "
+                ],
+                "display_properties": [
+                    "Nome",
+                    "Prioridade",
+                    "Status",
+                    "Tags",
+                    "Respons\u00e1vel "
+                ]
+            },
+            "1366456387344793712": {
+                "notion_url": "https://www.notion.so/67a17792acae44b899e79276f799c0aa?v=23076765dec0471981f97a0f420549f0&source=copy_link",
+                "create_properties": [
+                    "Nome",
+                    "Status",
+                    "Tipo",
+                    "Propriedade1",
+                    "Autor",
+                    "Envolvidos"
+                ],
+                "display_properties": [
+                    "Nome",
+                    "Status",
+                    "Envolvidos"
+                ]
+            },
+            "1393229010863132714": {
+                "notion_url": "https://www.notion.so/67a17792acae44b899e79276f799c0aa?v=23076765dec0471981f97a0f420549f0&source=copy_link",
+                "create_properties": [
+                    "Nome",
+                    "Status",
+                    "Autor",
+                    "Envolvidos"
+                ],
+                "display_properties": [
+                    "Nome",
+                    "Status"
+                ]
+            },
+            "1393229028282077225": {
+                "notion_url": "https://www.notion.so/22d3bffc59298035bbdef573374c22f3?v=22d3bffc592980a5af73000c03a4e148&source=copy_link",
+                "create_properties": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                ],
+                "display_properties": [
+                    "1",
+                    "4",
+                    "5",
+                    "6"
+                ]
+            },
+            "1393276334905753770": {
+                "notion_url": "https://www.notion.so/22c3bffc59298038b8b5ffa3c9507cf7?v=22c3bffc59298038b540000ca1e33f27&source=copy_link",
+                "create_properties": [
+                    "Nome",
+                    "Prioridade",
+                    "Status",
+                    "Tags",
+                    "Respons\u00e1vel"
+                ],
+                "display_properties": [
+                    "Nome",
+                    "Prioridade",
+                    "Status",
+                    "Tags"
+                ]
+            },
+            "1393316302554136646": {
+                "notion_url": "https://www.notion.so/22c3bffc59298038b8b5ffa3c9507cf7?v=22c3bffc59298038b540000ca1e33f27&source=copy_link",
+                "create_properties": [
+                    "Nome",
+                    "Prioridade",
+                    "Status",
+                    "Tags",
+                    "Respons\u00e1vel"
+                ],
+                "display_properties": [
+                    "Nome",
+                    "Prioridade",
+                    "Status",
+                    "Tags",
+                    "Respons\u00e1vel"
+                ]
+            },
+            "1393385606779900034": {
+                "notion_url": "https://www.notion.so/22c3bffc59298038b8b5ffa3c9507cf7?v=22c3bffc59298038b540000ca1e33f27&source=copy_link",
+                "create_properties": [
+                    "Nome",
+                    "Prioridade",
+                    "Tags",
+                    "Status",
+                    "Respons\u00e1vel"
+                ],
+                "display_properties": [
+                    "Nome",
+                    "Prioridade",
+                    "Status",
+                    "Tags",
+                    "Respons\u00e1vel"
+                ]
+            }
+        }
+    }
+}

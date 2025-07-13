@@ -1,24 +1,770 @@
-2025-07-12 22:57:10,503 - WARNING - PyNaCl is not installed, voice will NOT be supported
-2025-07-12 22:57:10,914 - INFO - logging in using static token
-2025-07-12 22:57:11,883 - INFO - Shard ID None has connected to Gateway (Session ID: 8bde36b6bc4ca7a30a8a1241f3bc0d84).
-2025-07-12 22:57:14,122 - INFO - Comandos sincronizados para o servidor 1366456386883551263.
-2025-07-12 22:57:14,123 - INFO - Iniciando o servidor de Webhooks em segundo plano...
-2025-07-12 22:57:14,127 - INFO - Servidor de Webhook iniciado na porta 8080.
-2025-07-12 22:57:14,127 - INFO - ✅ DiNo#1699 está online e pronto para uso!
-2025-07-12 22:57:14,153 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2025-07-13 02:43:47,795 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-13 02:43:47,884 - INFO - logging in using static token
+2025-07-13 02:43:48,538 - INFO - Shard ID None has connected to Gateway (Session ID: 49bce0aa9c5d3dde8fd3f7dc1966c0bc).
+2025-07-13 02:43:50,713 - INFO - Comandos sincronizados para o servidor 1366456386883551263.
+2025-07-13 02:43:50,713 - INFO - Iniciando o servidor de Webhooks em segundo plano...
+2025-07-13 02:43:50,715 - INFO - Servidor de Webhook iniciado na porta 8080.
+2025-07-13 02:43:50,715 - INFO - ✅ DiNo#1699 está online e pronto para uso!
+2025-07-13 02:43:50,728 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:8080
- * Running on http://192.168.100.238:8080
-2025-07-12 22:57:14,153 - INFO - [33mPress CTRL+C to quit[0m
-2025-07-12 22:57:53,596 - WARNING - PyNaCl is not installed, voice will NOT be supported
-2025-07-12 22:57:53,999 - INFO - logging in using static token
-2025-07-12 22:57:54,846 - INFO - Shard ID None has connected to Gateway (Session ID: 0e868c1d637b50f1d1d33f112d104bf9).
-2025-07-12 22:57:57,071 - INFO - Comandos sincronizados para o servidor 1366456386883551263.
-2025-07-12 22:57:57,072 - INFO - Iniciando o servidor de Webhooks em segundo plano...
-2025-07-12 22:57:57,074 - INFO - Servidor de Webhook iniciado na porta 8080.
-2025-07-12 22:57:57,075 - INFO - ✅ DiNo#1699 está online e pronto para uso!
-2025-07-12 22:57:57,089 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://172.31.128.8:8080
+2025-07-13 02:43:50,728 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 02:43:51,896 - INFO - 172.31.128.8 - - [13/Jul/2025 02:43:51] "[33mGET / HTTP/1.1[0m" 404 -
+2025-07-13 02:43:52,039 - INFO - 172.31.128.8 - - [13/Jul/2025 02:43:52] "[33mGET / HTTP/1.1[0m" 404 -
+2025-07-13 02:45:34,049 - INFO - 172.31.128.8 - - [13/Jul/2025 02:45:34] "[33mGET / HTTP/1.1[0m" 404 -
+2025-07-13 02:47:25,744 - INFO - 172.31.128.8 - - [13/Jul/2025 02:47:25] "[33mPOST / HTTP/1.1[0m" 404 -
+2025-07-13 02:48:27,805 - INFO - 172.31.128.8 - - [13/Jul/2025 02:48:27] "[33mGET / HTTP/1.1[0m" 404 -
+2025-07-13 02:52:43,854 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-13 02:52:44,028 - INFO - logging in using static token
+2025-07-13 02:52:44,618 - INFO - Shard ID None has connected to Gateway (Session ID: f2c33f2eb0d9bba6f366a9b314021aaf).
+2025-07-13 02:52:46,797 - INFO - Comandos sincronizados para o servidor 1366456386883551263.
+2025-07-13 02:52:46,798 - INFO - Iniciando o servidor de Webhooks em segundo plano...
+2025-07-13 02:52:46,801 - INFO - Servidor de Webhook iniciado na porta 8080.
+2025-07-13 02:52:46,801 - INFO - ✅ DiNo#1699 está online e pronto para uso!
+2025-07-13 02:52:46,810 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:8080
- * Running on http://192.168.100.238:8080
-2025-07-12 22:57:57,089 - INFO - [33mPress CTRL+C to quit[0m
+ * Running on http://172.31.128.8:8080
+2025-07-13 02:52:46,811 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 02:52:47,307 - INFO - 172.31.128.8 - - [13/Jul/2025 02:52:47] "[33mGET / HTTP/1.1[0m" 404 -
+2025-07-13 03:01:41,598 - INFO - 172.31.128.8 - - [13/Jul/2025 03:01:41] "[33mGET / HTTP/1.1[0m" 404 -
+2025-07-13 03:01:53,051 - INFO - HTTP Request: GET https://api.notion.com/v1/databases/22e3bffc592980b19020dde55bad2f37 "HTTP/1.1 200 OK"
+2025-07-13 03:04:46,385 - INFO - HTTP Request: GET https://api.notion.com/v1/databases/22e3bffc59298016ac1ad8d52245a24a "HTTP/1.1 200 OK"
+2025-07-13 03:05:10,519 - INFO - HTTP Request: GET https://api.notion.com/v1/users "HTTP/1.1 200 OK"
+2025-07-13 03:05:14,069 - INFO - HTTP Request: GET https://api.notion.com/v1/databases/22e3bffc59298016ac1ad8d52245a24a "HTTP/1.1 200 OK"
+2025-07-13 03:05:14,223 - INFO - HTTP Request: GET https://api.notion.com/v1/users "HTTP/1.1 200 OK"
+2025-07-13 03:05:14,329 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 400 Bad Request"
+2025-07-13 03:13:12,958 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-13 03:13:13,060 - INFO - logging in using static token
+2025-07-13 03:13:13,641 - INFO - Shard ID None has connected to Gateway (Session ID: 3ea6b2c5018f196de28081399305da82).
+2025-07-13 03:13:15,823 - INFO - Comandos sincronizados para o servidor 1366456386883551263.
+2025-07-13 03:13:15,824 - INFO - Iniciando o servidor de Webhooks em segundo plano...
+2025-07-13 03:13:15,826 - INFO - Servidor de Webhook iniciado na porta 8080.
+2025-07-13 03:13:15,827 - INFO - ✅ DiNo#1699 está online e pronto para uso!
+2025-07-13 03:13:15,836 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.31.128.8:8080
+2025-07-13 03:13:15,836 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 03:13:35,702 - INFO - HTTP Request: GET https://api.notion.com/v1/databases/22e3bffc59298016ac1ad8d52245a24a "HTTP/1.1 200 OK"
+2025-07-13 03:13:57,423 - INFO - HTTP Request: GET https://api.notion.com/v1/users "HTTP/1.1 200 OK"
+2025-07-13 03:14:00,763 - INFO - HTTP Request: GET https://api.notion.com/v1/databases/22e3bffc59298016ac1ad8d52245a24a "HTTP/1.1 200 OK"
+2025-07-13 03:14:00,982 - INFO - HTTP Request: GET https://api.notion.com/v1/users "HTTP/1.1 200 OK"
+2025-07-13 03:14:02,138 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-07-13 03:19:26,487 - ERROR - Exception on /notion-webhook [POST]
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 976, in ensure_sync
+    return self.async_to_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 997, in async_to_sync
+    raise RuntimeError(
+RuntimeError: Install Flask with the 'async' extra in order to use async views.
+2025-07-13 03:19:26,489 - INFO - 172.31.128.8 - - [13/Jul/2025 03:19:26] "[35m[1mPOST /notion-webhook HTTP/1.1[0m" 500 -
+2025-07-13 03:19:48,135 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-13 03:19:48,335 - INFO - logging in using static token
+2025-07-13 03:19:48,828 - INFO - Shard ID None has connected to Gateway (Session ID: dd3e01c28cc62ea55dbaf93d90423f84).
+2025-07-13 03:19:50,971 - INFO - Comandos sincronizados para o servidor 1366456386883551263.
+2025-07-13 03:19:50,971 - INFO - Iniciando o servidor de Webhooks em segundo plano...
+2025-07-13 03:19:50,974 - INFO - Servidor de Webhook iniciado na porta 8080.
+2025-07-13 03:19:50,974 - INFO - ✅ DiNo#1699 está online e pronto para uso!
+2025-07-13 03:19:50,987 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.31.128.8:8080
+2025-07-13 03:19:50,987 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 03:19:52,257 - INFO - 172.31.128.8 - - [13/Jul/2025 03:19:52] "[33mGET / HTTP/1.1[0m" 404 -
+2025-07-13 03:33:02,569 - INFO - 172.31.128.8 - - [13/Jul/2025 03:33:02] "[33mGET / HTTP/1.1[0m" 404 -
+2025-07-13 03:33:13,546 - INFO - 172.31.128.8 - - [13/Jul/2025 03:33:13] "[33mGET / HTTP/1.1[0m" 404 -
+2025-07-13 03:39:24,852 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-13 03:39:24,962 - INFO - logging in using static token
+2025-07-13 03:39:25,664 - INFO - Shard ID None has connected to Gateway (Session ID: e7f59058805e8cfb914ff8bd480f3453).
+2025-07-13 03:39:27,995 - INFO - Comandos sincronizados para o servidor 1366456386883551263.
+2025-07-13 03:39:27,995 - INFO - Iniciando o servidor de Webhooks em segundo plano...
+2025-07-13 03:39:27,997 - INFO - Servidor de Webhook iniciado na porta 8080.
+2025-07-13 03:39:27,998 - INFO - ✅ DiNo#1699 está online e pronto para uso!
+2025-07-13 03:39:28,006 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.31.128.8:8080
+2025-07-13 03:39:28,006 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 03:39:29,137 - INFO - 172.31.128.8 - - [13/Jul/2025 03:39:29] "[33mGET / HTTP/1.1[0m" 404 -
+2025-07-13 03:40:26,828 - ERROR - Ignoring exception in view <ManagementView timeout=180.0 children=7> for item <Button style=<ButtonStyle.primary: 1> url=None disabled=False label='Configurar Notificações' emoji=<PartialEmoji animated=False name='🔔' id=None> row=4 sku_id=None>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ui/view.py", line 435, in _scheduled_task
+    await item.callback(interaction)
+  File "/home/runner/workspace/ui_components.py", line 1177, in configure_notifications
+    fresh_config = config_utils.load_config(self.guild_id, self.channel_id)
+                   ^^^^^^^^^^^^
+NameError: name 'config_utils' is not defined
+2025-07-13 03:40:32,187 - ERROR - Ignoring exception in view <ManagementView timeout=180.0 children=7> for item <Button style=<ButtonStyle.primary: 1> url=None disabled=False label='Configurar Notificações' emoji=<PartialEmoji animated=False name='🔔' id=None> row=4 sku_id=None>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ui/view.py", line 435, in _scheduled_task
+    await item.callback(interaction)
+  File "/home/runner/workspace/ui_components.py", line 1177, in configure_notifications
+    fresh_config = config_utils.load_config(self.guild_id, self.channel_id)
+                   ^^^^^^^^^^^^
+NameError: name 'config_utils' is not defined
+2025-07-13 03:45:22,051 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-13 03:45:22,216 - INFO - logging in using static token
+2025-07-13 03:45:22,792 - INFO - Shard ID None has connected to Gateway (Session ID: 34b17a5d415d1d711b1f78b4131c9357).
+2025-07-13 03:45:24,974 - INFO - Comandos sincronizados para o servidor 1366456386883551263.
+2025-07-13 03:45:24,974 - INFO - Iniciando o servidor de Webhooks em segundo plano...
+2025-07-13 03:45:24,976 - INFO - Servidor de Webhook iniciado na porta 8080.
+2025-07-13 03:45:24,976 - INFO - ✅ DiNo#1699 está online e pronto para uso!
+2025-07-13 03:45:24,989 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.31.128.8:8080
+2025-07-13 03:45:24,989 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 03:45:26,020 - INFO - 172.31.128.8 - - [13/Jul/2025 03:45:26] "[33mGET / HTTP/1.1[0m" 404 -
+2025-07-13 04:04:19,135 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-13 04:04:19,251 - INFO - logging in using static token
+2025-07-13 04:04:19,922 - INFO - Shard ID None has connected to Gateway (Session ID: 1e98154428c34c3afde6da580242032f).
+2025-07-13 04:04:22,107 - INFO - Comandos sincronizados para o servidor 1366456386883551263.
+2025-07-13 04:04:22,107 - INFO - Iniciando o servidor de Webhooks em segundo plano...
+2025-07-13 04:04:22,110 - INFO - Servidor de Webhook iniciado na porta 8080.
+2025-07-13 04:04:22,110 - INFO - ✅ DiNo#1699 está online e pronto para uso!
+2025-07-13 04:04:22,119 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.31.128.8:8080
+2025-07-13 04:04:22,119 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 04:04:23,098 - INFO - 172.31.128.8 - - [13/Jul/2025 04:04:23] "[33mGET / HTTP/1.1[0m" 404 -
+2025-07-13 04:10:36,096 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-13 04:10:36,175 - INFO - logging in using static token
+2025-07-13 04:10:36,908 - INFO - Shard ID None has connected to Gateway (Session ID: a820cd784eaf87eaaa7650117b5a86f9).
+2025-07-13 04:10:39,097 - INFO - Comandos sincronizados para o servidor 1366456386883551263.
+2025-07-13 04:10:39,097 - INFO - Iniciando o servidor de Webhooks em segundo plano...
+2025-07-13 04:10:39,100 - INFO - Servidor de Webhook iniciado na porta 8080.
+2025-07-13 04:10:39,100 - INFO - ✅ DiNo#1699 está online e pronto para uso!
+2025-07-13 04:10:39,113 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.31.128.8:8080
+2025-07-13 04:10:39,114 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 04:10:40,018 - INFO - 172.31.128.8 - - [13/Jul/2025 04:10:40] "[33mGET / HTTP/1.1[0m" 404 -
+2025-07-13 04:10:56,645 - INFO - HTTP Request: GET https://api.notion.com/v1/databases/22e3bffc59298016ac1ad8d52245a24a "HTTP/1.1 200 OK"
+2025-07-13 04:14:09,398 - INFO - HTTP Request: GET https://api.notion.com/v1/databases/22e3bffc59298016ac1ad8d52245a24a "HTTP/1.1 200 OK"
+2025-07-13 04:14:29,034 - INFO - HTTP Request: GET https://api.notion.com/v1/users "HTTP/1.1 200 OK"
+2025-07-13 04:14:31,657 - INFO - HTTP Request: GET https://api.notion.com/v1/databases/22e3bffc59298016ac1ad8d52245a24a "HTTP/1.1 200 OK"
+2025-07-13 04:14:31,798 - INFO - HTTP Request: GET https://api.notion.com/v1/users "HTTP/1.1 200 OK"
+2025-07-13 04:14:32,170 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-07-13 04:15:17,172 - INFO - HTTP Request: GET https://api.notion.com/v1/databases/22e3bffc59298016ac1ad8d52245a24a "HTTP/1.1 200 OK"
+2025-07-13 04:17:07,546 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-13 04:17:07,692 - INFO - logging in using static token
+2025-07-13 04:17:08,252 - INFO - Shard ID None has connected to Gateway (Session ID: d8048bd74a399e57addac56f6e73f266).
+2025-07-13 04:17:10,417 - INFO - Comandos sincronizados para o servidor 1366456386883551263.
+2025-07-13 04:17:10,417 - INFO - Iniciando o servidor de Webhooks em segundo plano...
+2025-07-13 04:17:10,419 - INFO - Servidor de Webhook iniciado na porta 8080.
+2025-07-13 04:17:10,420 - INFO - ✅ DiNo#1699 está online e pronto para uso!
+2025-07-13 04:17:10,431 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.31.128.8:8080
+2025-07-13 04:17:10,431 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 04:17:11,366 - INFO - 172.31.128.8 - - [13/Jul/2025 04:17:11] "[33mGET / HTTP/1.1[0m" 404 -
+2025-07-13 04:27:49,170 - ERROR - Exception on /notion-webhook [POST]
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 976, in ensure_sync
+    return self.async_to_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 997, in async_to_sync
+    raise RuntimeError(
+RuntimeError: Install Flask with the 'async' extra in order to use async views.
+2025-07-13 04:27:49,172 - INFO - 172.31.128.8 - - [13/Jul/2025 04:27:49] "[35m[1mPOST /notion-webhook HTTP/1.1[0m" 500 -
+2025-07-13 04:28:09,291 - ERROR - Exception on /notion-webhook [POST]
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 976, in ensure_sync
+    return self.async_to_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 997, in async_to_sync
+    raise RuntimeError(
+RuntimeError: Install Flask with the 'async' extra in order to use async views.
+2025-07-13 04:28:09,292 - INFO - 172.31.128.8 - - [13/Jul/2025 04:28:09] "[35m[1mPOST /notion-webhook HTTP/1.1[0m" 500 -
+2025-07-13 04:29:52,505 - ERROR - Exception on /notion-webhook [POST]
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 976, in ensure_sync
+    return self.async_to_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 997, in async_to_sync
+    raise RuntimeError(
+RuntimeError: Install Flask with the 'async' extra in order to use async views.
+2025-07-13 04:29:52,506 - INFO - 172.31.128.8 - - [13/Jul/2025 04:29:52] "[35m[1mPOST /notion-webhook HTTP/1.1[0m" 500 -
+2025-07-13 04:30:00,179 - INFO - 172.31.128.8 - - [13/Jul/2025 04:30:00] "[33mPOST / HTTP/1.1[0m" 404 -
+2025-07-13 04:30:02,631 - INFO - 172.31.128.8 - - [13/Jul/2025 04:30:02] "[33mPOST / HTTP/1.1[0m" 404 -
+2025-07-13 04:30:19,768 - INFO - 172.31.128.8 - - [13/Jul/2025 04:30:19] "[33mPOST /aaaa HTTP/1.1[0m" 404 -
+2025-07-13 04:30:21,616 - INFO - 172.31.128.8 - - [13/Jul/2025 04:30:21] "[33mPOST /aaaa HTTP/1.1[0m" 404 -
+2025-07-13 04:31:02,226 - ERROR - Exception on /notion-webhook [POST]
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 976, in ensure_sync
+    return self.async_to_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 997, in async_to_sync
+    raise RuntimeError(
+RuntimeError: Install Flask with the 'async' extra in order to use async views.
+2025-07-13 04:31:02,227 - INFO - 172.31.128.8 - - [13/Jul/2025 04:31:02] "[35m[1mPOST /notion-webhook HTTP/1.1[0m" 500 -
+2025-07-13 04:31:05,758 - ERROR - Exception on /notion-webhook [POST]
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 976, in ensure_sync
+    return self.async_to_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 997, in async_to_sync
+    raise RuntimeError(
+RuntimeError: Install Flask with the 'async' extra in order to use async views.
+2025-07-13 04:31:05,759 - INFO - 172.31.128.8 - - [13/Jul/2025 04:31:05] "[35m[1mPOST /notion-webhook HTTP/1.1[0m" 500 -
+2025-07-13 04:36:07,152 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-13 04:36:07,304 - INFO - logging in using static token
+2025-07-13 04:36:08,143 - INFO - Shard ID None has connected to Gateway (Session ID: 0427a3717919a85318caf669bb3d776d).
+2025-07-13 04:36:10,359 - INFO - Comandos sincronizados para o servidor 1366456386883551263.
+2025-07-13 04:36:10,360 - INFO - Iniciando o servidor de Webhooks em segundo plano...
+2025-07-13 04:36:10,362 - INFO - Servidor de Webhook iniciado na porta 8080.
+2025-07-13 04:36:10,362 - INFO - ✅ DiNo#1699 está online e pronto para uso!
+2025-07-13 04:36:10,372 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.31.128.8:8080
+2025-07-13 04:36:10,372 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 04:36:11,315 - INFO - 172.31.128.8 - - [13/Jul/2025 04:36:11] "[33mGET / HTTP/1.1[0m" 404 -
+2025-07-13 04:36:26,045 - INFO - ==============================
+2025-07-13 04:36:26,045 - INFO - [DEBUG] Webhook de atualização de página recebido: {
+  "verification_token": "secret_qSlLurYNQRTVW7fKsPytJIjaLpDwFpzx1D4tM1npD2j"
+}
+2025-07-13 04:36:26,045 - INFO - 172.31.128.8 - - [13/Jul/2025 04:36:26] "POST /notion-webhook HTTP/1.1" 200 -
+2025-07-13 04:36:49,719 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-13 04:36:49,804 - INFO - logging in using static token
+2025-07-13 04:36:50,463 - INFO - Shard ID None has connected to Gateway (Session ID: 06a16aee30f213fe21619fc1d8819907).
+2025-07-13 04:36:52,648 - INFO - Comandos sincronizados para o servidor 1366456386883551263.
+2025-07-13 04:36:52,648 - INFO - Iniciando o servidor de Webhooks em segundo plano...
+2025-07-13 04:36:52,651 - INFO - Servidor de Webhook iniciado na porta 8080.
+2025-07-13 04:36:52,651 - INFO - ✅ DiNo#1699 está online e pronto para uso!
+2025-07-13 04:36:52,659 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.31.128.8:8080
+2025-07-13 04:36:52,659 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 04:36:53,199 - INFO - 172.31.128.8 - - [13/Jul/2025 04:36:53] "[33mGET / HTTP/1.1[0m" 404 -
+2025-07-13 04:38:34,699 - INFO - 172.31.128.8 - - [13/Jul/2025 04:38:34] "POST /notion-webhook HTTP/1.1" 200 -
+2025-07-13 04:38:34,699 - INFO - ==============================
+2025-07-13 04:38:34,699 - INFO - [DEBUG] Webhook de atualização de página recebido: {
+  "id": "e8ad098e-4ca0-4942-bd9a-b183fbeea46e",
+  "timestamp": "2025-07-13T04:37:27.244Z",
+  "workspace_id": "c6041fdc-c917-4589-b68a-6ca411e93db9",
+  "workspace_name": "DiNo Bot",
+  "subscription_id": "22fd872b-594c-81ea-ba67-009923e272c7",
+  "integration_id": "15fd872b-594c-815b-b78f-00371252cad8",
+  "authors": [
+    {
+      "id": "610319fe-843d-4fc7-b18c-3ef47e2d87fa",
+      "type": "person"
+    }
+  ],
+  "attempt_number": 1,
+  "entity": {
+    "id": "22f3bffc-5929-8120-902c-c2d6bba9dc8e",
+    "type": "page"
+  },
+  "type": "page.properties_updated",
+  "data": {
+    "parent": {
+      "id": "22e3bffc-5929-8016-ac1a-d8d52245a24a",
+      "type": "database"
+    },
+    "updated_properties": []
+  }
+}
+2025-07-13 04:38:35,498 - INFO - HTTP Request: GET https://api.notion.com/v1/databases/22e3bffc59298016ac1ad8d52245a24a "HTTP/1.1 200 OK"
+2025-07-13 04:39:10,446 - INFO - HTTP Request: GET https://api.notion.com/v1/databases/22e3bffc59298016ac1ad8d52245a24a "HTTP/1.1 200 OK"
+2025-07-13 04:39:27,751 - INFO - HTTP Request: GET https://api.notion.com/v1/users "HTTP/1.1 200 OK"
+2025-07-13 04:39:30,495 - INFO - HTTP Request: GET https://api.notion.com/v1/databases/22e3bffc59298016ac1ad8d52245a24a "HTTP/1.1 200 OK"
+2025-07-13 04:39:30,648 - INFO - HTTP Request: GET https://api.notion.com/v1/users "HTTP/1.1 200 OK"
+2025-07-13 04:39:33,349 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-07-13 04:40:34,890 - INFO - 172.31.128.8 - - [13/Jul/2025 04:40:34] "POST /notion-webhook HTTP/1.1" 200 -
+2025-07-13 04:40:34,891 - INFO - ==============================
+2025-07-13 04:40:34,892 - INFO - [DEBUG] Webhook de atualização de página recebido: {
+  "id": "6a64cf73-503d-4f81-97db-c4bd72485fb7",
+  "timestamp": "2025-07-13T04:39:33.178Z",
+  "workspace_id": "c6041fdc-c917-4589-b68a-6ca411e93db9",
+  "workspace_name": "DiNo Bot",
+  "subscription_id": "22fd872b-594c-81ea-ba67-009923e272c7",
+  "integration_id": "15fd872b-594c-815b-b78f-00371252cad8",
+  "authors": [
+    {
+      "id": "e640571a-677c-40c5-adc1-19e1e3e48d69",
+      "type": "bot"
+    },
+    {
+      "id": "610319fe-843d-4fc7-b18c-3ef47e2d87fa",
+      "type": "person"
+    }
+  ],
+  "attempt_number": 1,
+  "entity": {
+    "id": "22f3bffc-5929-81ba-a21a-daa30c6f8dd4",
+    "type": "page"
+  },
+  "type": "page.created",
+  "data": {
+    "parent": {
+      "id": "22e3bffc-5929-8016-ac1a-d8d52245a24a",
+      "type": "database"
+    }
+  }
+}
+2025-07-13 04:40:35,183 - INFO - 172.31.128.8 - - [13/Jul/2025 04:40:35] "POST /notion-webhook HTTP/1.1" 200 -
+2025-07-13 04:40:35,183 - INFO - ==============================
+2025-07-13 04:40:35,183 - INFO - [DEBUG] Webhook de atualização de página recebido: {
+  "id": "2849c4ac-8898-4685-b603-e97da3d6bbbb",
+  "timestamp": "2025-07-13T04:39:33.178Z",
+  "workspace_id": "c6041fdc-c917-4589-b68a-6ca411e93db9",
+  "workspace_name": "DiNo Bot",
+  "subscription_id": "22fd872b-594c-81ea-ba67-009923e272c7",
+  "integration_id": "15fd872b-594c-815b-b78f-00371252cad8",
+  "authors": [
+    {
+      "id": "e640571a-677c-40c5-adc1-19e1e3e48d69",
+      "type": "bot"
+    }
+  ],
+  "attempt_number": 1,
+  "entity": {
+    "id": "22f3bffc-5929-81ba-a21a-daa30c6f8dd4",
+    "type": "page"
+  },
+  "type": "page.content_updated",
+  "data": {
+    "parent": {
+      "id": "22e3bffc-5929-8016-ac1a-d8d52245a24a",
+      "type": "database"
+    },
+    "updated_blocks": [
+      {
+        "id": "22f3bffc-5929-8167-836e-dbe12d627ddf",
+        "type": "block"
+      },
+      {
+        "id": "22f3bffc-5929-81e2-9681-e1a917104559",
+        "type": "block"
+      },
+      {
+        "id": "22f3bffc-5929-81dd-aba6-cccfcb3f517f",
+        "type": "block"
+      },
+      {
+        "id": "22f3bffc-5929-8167-aaf3-ca645d7dae47",
+        "type": "block"
+      },
+      {
+        "id": "22f3bffc-5929-81a4-97ca-fd7ca3f1f016",
+        "type": "block"
+      },
+      {
+        "id": "22f3bffc-5929-81db-b887-e00b8b002283",
+        "type": "block"
+      },
+      {
+        "id": "22f3bffc-5929-811f-85c0-ec51b53f4f28",
+        "type": "block"
+      },
+      {
+        "id": "22f3bffc-5929-81e6-91fd-e5c4a9373991",
+        "type": "block"
+      },
+      {
+        "id": "22f3bffc-5929-81d7-a644-e69b50b2f423",
+        "type": "block"
+      },
+      {
+        "id": "22f3bffc-5929-8113-b9d8-f1211c0a7ff6",
+        "type": "block"
+      },
+      {
+        "id": "22f3bffc-5929-81a6-977f-cd4c005638e8",
+        "type": "block"
+      },
+      {
+        "id": "22f3bffc-5929-81a2-bda4-e9b56451cd86",
+        "type": "block"
+      },
+      {
+        "id": "22f3bffc-5929-81a3-8c06-ddae8c12b625",
+        "type": "block"
+      }
+    ]
+  }
+}
+2025-07-13 04:47:11,652 - INFO - ==============================
+2025-07-13 04:47:11,652 - INFO - 172.31.128.8 - - [13/Jul/2025 04:47:11] "POST /notion-webhook HTTP/1.1" 200 -
+2025-07-13 04:47:11,652 - INFO - [DEBUG] Webhook de atualização de página recebido: {
+  "id": "3fa8ae08-ec59-4be1-9f2f-af0961b28fee",
+  "timestamp": "2025-07-13T04:46:10.322Z",
+  "workspace_id": "c6041fdc-c917-4589-b68a-6ca411e93db9",
+  "workspace_name": "DiNo Bot",
+  "subscription_id": "22fd872b-594c-81ea-ba67-009923e272c7",
+  "integration_id": "15fd872b-594c-815b-b78f-00371252cad8",
+  "authors": [
+    {
+      "id": "610319fe-843d-4fc7-b18c-3ef47e2d87fa",
+      "type": "person"
+    }
+  ],
+  "attempt_number": 1,
+  "entity": {
+    "id": "22f3bffc-5929-81ba-a21a-daa30c6f8dd4",
+    "type": "page"
+  },
+  "type": "page.properties_updated",
+  "data": {
+    "parent": {
+      "id": "22e3bffc-5929-8016-ac1a-d8d52245a24a",
+      "type": "database"
+    },
+    "updated_properties": []
+  }
+}
+2025-07-13 04:47:48,223 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-13 04:47:48,337 - INFO - logging in using static token
+2025-07-13 04:47:49,210 - INFO - Shard ID None has connected to Gateway (Session ID: 36762a807a8dd059836b340392853431).
+2025-07-13 04:47:51,366 - INFO - Comandos sincronizados para o servidor 1366456386883551263.
+2025-07-13 04:47:51,367 - INFO - Iniciando o servidor de Webhooks em segundo plano...
+2025-07-13 04:47:51,368 - INFO - Servidor de Webhook iniciado na porta 8080.
+2025-07-13 04:47:51,369 - INFO - ✅ DiNo#1699 está online e pronto para uso!
+2025-07-13 04:47:51,394 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.31.128.8:8080
+2025-07-13 04:47:51,395 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 04:47:52,505 - INFO - 172.31.128.8 - - [13/Jul/2025 04:47:52] "[33mGET / HTTP/1.1[0m" 404 -
+2025-07-13 04:49:09,303 - INFO - 172.31.128.8 - - [13/Jul/2025 04:49:09] "POST /notion-webhook HTTP/1.1" 200 -
+2025-07-13 04:49:09,304 - INFO - ==============================
+2025-07-13 04:49:09,305 - INFO - [DEBUG] Webhook de atualização de página recebido: {
+  "id": "db317516-39bd-4f49-a148-d82b3e03ba8b",
+  "timestamp": "2025-07-13T04:48:05.018Z",
+  "workspace_id": "c6041fdc-c917-4589-b68a-6ca411e93db9",
+  "workspace_name": "DiNo Bot",
+  "subscription_id": "22fd872b-594c-81ea-ba67-009923e272c7",
+  "integration_id": "15fd872b-594c-815b-b78f-00371252cad8",
+  "authors": [
+    {
+      "id": "610319fe-843d-4fc7-b18c-3ef47e2d87fa",
+      "type": "person"
+    }
+  ],
+  "attempt_number": 1,
+  "entity": {
+    "id": "22f3bffc-5929-81ba-a21a-daa30c6f8dd4",
+    "type": "page"
+  },
+  "type": "page.properties_updated",
+  "data": {
+    "parent": {
+      "id": "22e3bffc-5929-8016-ac1a-d8d52245a24a",
+      "type": "database"
+    },
+    "updated_properties": [
+      "cL_C"
+    ]
+  }
+}
+2025-07-13 05:05:50,735 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-13 05:05:50,891 - INFO - logging in using static token
+2025-07-13 05:05:51,696 - INFO - Shard ID None has connected to Gateway (Session ID: f9b8a97973afe846339d0d848b45278a).
+2025-07-13 05:05:53,962 - INFO - Comandos sincronizados para o servidor 1366456386883551263.
+2025-07-13 05:05:53,962 - INFO - Iniciando o servidor de Webhooks em segundo plano...
+2025-07-13 05:05:53,964 - INFO - Servidor de Webhook iniciado na porta 8080.
+2025-07-13 05:05:53,965 - INFO - ✅ DiNo#1699 está online e pronto para uso!
+2025-07-13 05:05:53,974 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.31.128.8:8080
+2025-07-13 05:05:53,974 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 05:05:55,061 - INFO - 172.31.128.8 - - [13/Jul/2025 05:05:55] "[33mGET / HTTP/1.1[0m" 404 -
+2025-07-13 05:06:14,110 - ERROR - Ignoring exception in view <ManagementView timeout=180.0 children=7> for item <Button style=<ButtonStyle.primary: 1> url=None disabled=False label='Configurar Notificações' emoji=<PartialEmoji animated=False name='🔔' id=None> row=4 sku_id=None>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ui/view.py", line 435, in _scheduled_task
+    await item.callback(interaction)
+  File "/home/runner/workspace/ui_components.py", line 695, in configure_notifications
+    rules_dashboard_view = NotificationConfigView(self.guild_id, self.channel_id, fresh_config, self.notion, interaction)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/ui_components.py", line 122, in __init__
+    self.update_view()
+  File "/home/runner/workspace/ui_components.py", line 129, in update_view
+    options = [SelectOption(label=f"Se '{rule['trigger_property_name']}' for '{rule['trigger_value_name']}'", value=rule['rule_id'], description=f"ID: {rule['rule_id'][:8]}...") for rule in rules]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/ui_components.py", line 129, in <listcomp>
+    options = [SelectOption(label=f"Se '{rule['trigger_property_name']}' for '{rule['trigger_value_name']}'", value=rule['rule_id'], description=f"ID: {rule['rule_id'][:8]}...") for rule in rules]
+                                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'trigger_property_name'
+2025-07-13 05:08:36,553 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-13 05:08:36,644 - INFO - logging in using static token
+2025-07-13 05:08:37,374 - INFO - Shard ID None has connected to Gateway (Session ID: 3de4666da1b66d61d62b95c85adc74b5).
+2025-07-13 05:08:39,566 - INFO - Comandos sincronizados para o servidor 1366456386883551263.
+2025-07-13 05:08:39,566 - INFO - Iniciando o servidor de Webhooks em segundo plano...
+2025-07-13 05:08:39,568 - INFO - Servidor de Webhook iniciado na porta 8080.
+2025-07-13 05:08:39,568 - INFO - ✅ DiNo#1699 está online e pronto para uso!
+2025-07-13 05:08:39,579 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.31.128.8:8080
+2025-07-13 05:08:39,579 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 05:08:40,203 - INFO - 172.31.128.8 - - [13/Jul/2025 05:08:40] "[33mGET / HTTP/1.1[0m" 404 -
+2025-07-13 05:08:59,257 - INFO - HTTP Request: GET https://api.notion.com/v1/databases/22e3bffc59298016ac1ad8d52245a24a "HTTP/1.1 200 OK"
+2025-07-13 05:09:23,693 - ERROR - Ignoring exception in modal <RuleMessageModal timeout=300.0 children=1>:
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ui/modal.py", line 189, in _scheduled_task
+    await self.on_submit(interaction)
+  File "/home/runner/workspace/ui_components.py", line 51, in on_submit
+    await self.original_interaction.message.delete()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/message.py", line 1304, in delete
+    await self._state.http.delete_message(self.channel.id, self.id)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 758, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10008): Unknown Message
+2025-07-13 05:10:54,319 - INFO - Webhook do tipo 'page.updated' recebido.
+2025-07-13 05:10:54,320 - INFO - 172.31.128.8 - - [13/Jul/2025 05:10:54] "POST /notion-webhook HTTP/1.1" 200 -
+2025-07-13 05:16:12,287 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-13 05:16:12,415 - INFO - logging in using static token
+2025-07-13 05:16:13,251 - INFO - Shard ID None has connected to Gateway (Session ID: 481414658f9fee4c3a72116a425fe28c).
+2025-07-13 05:16:15,391 - INFO - Comandos sincronizados para o servidor 1366456386883551263.
+2025-07-13 05:16:15,391 - INFO - Iniciando o servidor de Webhooks em segundo plano...
+2025-07-13 05:16:15,393 - INFO - Servidor de Webhook iniciado na porta 8080.
+2025-07-13 05:16:15,394 - INFO - ✅ DiNo#1699 está online e pronto para uso!
+2025-07-13 05:16:15,402 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.31.128.8:8080
+2025-07-13 05:16:15,402 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 05:16:16,420 - INFO - 172.31.128.8 - - [13/Jul/2025 05:16:16] "[33mGET / HTTP/1.1[0m" 404 -
+2025-07-13 05:16:31,008 - ERROR - Ignoring exception in view <NotificationConfigView timeout=300.0 children=3> for item <Button style=<ButtonStyle.success: 3> url=None disabled=False label='➕ Adicionar Nova Regra' emoji=None row=0 sku_id=None>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ui/view.py", line 435, in _scheduled_task
+    await item.callback(interaction)
+  File "/home/runner/workspace/ui_components.py", line 218, in add_rule_button
+    wizard_view = NotificationRuleWizard(interaction.user.id,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: NotificationRuleWizard.__init__() takes 6 positional arguments but 7 were given
+2025-07-13 05:17:17,790 - ERROR - Ignoring exception in view <NotificationConfigView timeout=300.0 children=2> for item <Button style=<ButtonStyle.secondary: 2> url=None disabled=False label='Fechar' emoji=None row=4 sku_id=None>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ui/view.py", line 435, in _scheduled_task
+    await item.callback(interaction)
+  File "/home/runner/workspace/ui_components.py", line 248, in close_button
+    await interaction.message.delete()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/message.py", line 1304, in delete
+    await self._state.http.delete_message(self.channel.id, self.id)
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/http.py", line 758, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10008): Unknown Message
+2025-07-13 05:20:05,846 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-13 05:20:06,047 - INFO - logging in using static token
+2025-07-13 05:20:06,726 - INFO - Shard ID None has connected to Gateway (Session ID: 6e535a62a4a0c90a86f3dc15bf357b6f).
+2025-07-13 05:20:08,868 - INFO - Comandos sincronizados para o servidor 1366456386883551263.
+2025-07-13 05:20:08,869 - INFO - Iniciando o servidor de Webhooks em segundo plano...
+2025-07-13 05:20:08,871 - INFO - Servidor de Webhook iniciado na porta 8080.
+2025-07-13 05:20:08,871 - INFO - ✅ DiNo#1699 está online e pronto para uso!
+2025-07-13 05:20:08,880 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.31.128.8:8080
+2025-07-13 05:20:08,880 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 05:20:09,461 - INFO - 172.31.128.8 - - [13/Jul/2025 05:20:09] "[33mGET / HTTP/1.1[0m" 404 -
+2025-07-13 05:20:28,018 - INFO - HTTP Request: GET https://api.notion.com/v1/databases/22e3bffc59298016ac1ad8d52245a24a "HTTP/1.1 200 OK"
+2025-07-13 05:21:02,376 - INFO - HTTP Request: GET https://api.notion.com/v1/databases/22e3bffc59298016ac1ad8d52245a24a "HTTP/1.1 200 OK"
+2025-07-13 05:21:29,522 - INFO - HTTP Request: GET https://api.notion.com/v1/users "HTTP/1.1 200 OK"
+2025-07-13 05:21:32,099 - INFO - HTTP Request: GET https://api.notion.com/v1/databases/22e3bffc59298016ac1ad8d52245a24a "HTTP/1.1 200 OK"
+2025-07-13 05:21:32,222 - INFO - HTTP Request: GET https://api.notion.com/v1/users "HTTP/1.1 200 OK"
+2025-07-13 05:21:32,614 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-07-13 05:22:35,326 - INFO - Webhook do tipo 'page.updated' recebido.
+2025-07-13 05:22:35,326 - INFO - 172.31.128.8 - - [13/Jul/2025 05:22:35] "POST /notion-webhook HTTP/1.1" 200 -
+2025-07-13 05:22:36,118 - INFO - Webhook do tipo 'page.updated' recebido.
+2025-07-13 05:22:36,121 - INFO - 172.31.128.8 - - [13/Jul/2025 05:22:36] "POST /notion-webhook HTTP/1.1" 200 -
+2025-07-13 05:23:41,014 - INFO - HTTP Request: GET https://api.notion.com/v1/databases/22e3bffc59298016ac1ad8d52245a24a "HTTP/1.1 200 OK"
+2025-07-13 05:23:46,099 - INFO - Webhook do tipo 'page.updated' recebido.
+2025-07-13 05:23:46,099 - INFO - 172.31.128.8 - - [13/Jul/2025 05:23:46] "POST /notion-webhook HTTP/1.1" 200 -
+2025-07-13 05:37:03,630 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-13 05:37:03,839 - INFO - logging in using static token
+2025-07-13 05:37:04,534 - INFO - Shard ID None has connected to Gateway (Session ID: f40d620d7f6be8e547fb8878f7c7a81d).
+2025-07-13 05:38:49,882 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-13 05:38:49,964 - INFO - logging in using static token
+2025-07-13 05:38:50,716 - INFO - Shard ID None has connected to Gateway (Session ID: 41e0bc6348a721d437d9d781a097ff35).
+2025-07-13 05:38:52,887 - INFO - Comandos sincronizados para o servidor 1366456386883551263.
+2025-07-13 05:38:52,887 - INFO - Iniciando o servidor de Webhooks em segundo plano...
+2025-07-13 05:38:52,890 - INFO - Servidor de Webhook iniciado na porta 8080.
+2025-07-13 05:38:52,890 - INFO - ✅ DiNo#1699 está online e pronto para uso!
+2025-07-13 05:38:52,901 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.31.128.8:8080
+2025-07-13 05:38:52,901 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 05:38:54,006 - INFO - 172.31.128.8 - - [13/Jul/2025 05:38:54] "[33mGET / HTTP/1.1[0m" 404 -
+2025-07-13 05:39:08,275 - INFO - HTTP Request: GET https://api.notion.com/v1/databases/22e3bffc59298016ac1ad8d52245a24a "HTTP/1.1 200 OK"
+2025-07-13 05:40:49,211 - INFO - Webhook do tipo 'page.updated' recebido.
+2025-07-13 05:40:49,212 - INFO - 172.31.128.8 - - [13/Jul/2025 05:40:49] "POST /notion-webhook HTTP/1.1" 200 -
+2025-07-13 06:03:24,458 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-13 06:03:24,580 - INFO - logging in using static token
+2025-07-13 06:03:25,234 - INFO - Shard ID None has connected to Gateway (Session ID: 72a2c2c8f7da289e2592c072b35635a6).
+2025-07-13 06:03:27,377 - INFO - Comandos sincronizados para o servidor 1366456386883551263.
+2025-07-13 06:03:27,378 - INFO - Iniciando o servidor de Webhooks em segundo plano...
+2025-07-13 06:03:27,381 - INFO - Servidor de Webhook iniciado na porta 8080.
+2025-07-13 06:03:27,381 - INFO - ✅ DiNo#1699 está online e pronto para uso!
+2025-07-13 06:03:27,395 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.31.128.8:8080
+2025-07-13 06:03:27,395 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 06:03:28,421 - INFO - 172.31.128.8 - - [13/Jul/2025 06:03:28] "[33mGET / HTTP/1.1[0m" 404 -
+2025-07-13 06:03:49,706 - INFO - HTTP Request: GET https://api.notion.com/v1/databases/22e3bffc59298016ac1ad8d52245a24a "HTTP/1.1 200 OK"
+2025-07-13 06:05:40,666 - INFO - HTTP Request: GET https://api.notion.com/v1/databases/22e3bffc59298016ac1ad8d52245a24a "HTTP/1.1 200 OK"
+2025-07-13 06:05:52,394 - INFO - Webhook do tipo 'page.updated' recebido.
+2025-07-13 06:05:52,395 - INFO - 172.31.128.8 - - [13/Jul/2025 06:05:52] "POST /notion-webhook HTTP/1.1" 200 -
+2025-07-13 06:06:01,884 - ERROR - Ignoring exception in view <CardSelectPropertiesView timeout=300.0 children=3> for item <Button style=<ButtonStyle.success: 3> url=None disabled=True label='✅ Criar Card' emoji=None row=4 sku_id=None>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ui/view.py", line 435, in _scheduled_task
+    await item.callback(interaction)
+  File "/home/runner/workspace/ui_components.py", line 741, in confirm_button
+    await interaction.followup.defer(ephemeral=True, thinking=True)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Webhook' object has no attribute 'defer'
+2025-07-13 06:06:42,561 - INFO - HTTP Request: GET https://api.notion.com/v1/databases/22e3bffc59298016ac1ad8d52245a24a "HTTP/1.1 200 OK"
+2025-07-13 06:06:51,297 - ERROR - Ignoring exception in view <CardSelectPropertiesView timeout=300.0 children=3> for item <Button style=<ButtonStyle.success: 3> url=None disabled=True label='✅ Criar Card' emoji=None row=4 sku_id=None>
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/discord/ui/view.py", line 435, in _scheduled_task
+    await item.callback(interaction)
+  File "/home/runner/workspace/ui_components.py", line 741, in confirm_button
+    await interaction.followup.defer(ephemeral=True, thinking=True)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Webhook' object has no attribute 'defer'
+2025-07-13 06:08:30,296 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-13 06:08:30,444 - INFO - logging in using static token
+2025-07-13 06:08:31,093 - INFO - Shard ID None has connected to Gateway (Session ID: 5dd948a3f4f0bb9b9080aac0b3882d12).
+2025-07-13 06:08:33,251 - INFO - Comandos sincronizados para o servidor 1366456386883551263.
+2025-07-13 06:08:33,251 - INFO - Iniciando o servidor de Webhooks em segundo plano...
+2025-07-13 06:08:33,253 - INFO - Servidor de Webhook iniciado na porta 8080.
+2025-07-13 06:08:33,253 - INFO - ✅ DiNo#1699 está online e pronto para uso!
+2025-07-13 06:08:33,264 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.31.128.8:8080
+2025-07-13 06:08:33,264 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 06:08:34,218 - INFO - 172.31.128.8 - - [13/Jul/2025 06:08:34] "[33mGET / HTTP/1.1[0m" 404 -
+2025-07-13 06:08:44,607 - INFO - HTTP Request: GET https://api.notion.com/v1/databases/22e3bffc59298016ac1ad8d52245a24a "HTTP/1.1 200 OK"
+2025-07-13 06:08:58,903 - INFO - HTTP Request: GET https://api.notion.com/v1/databases/22e3bffc59298016ac1ad8d52245a24a "HTTP/1.1 200 OK"
+2025-07-13 06:09:12,478 - INFO - HTTP Request: GET https://api.notion.com/v1/databases/22e3bffc59298016ac1ad8d52245a24a "HTTP/1.1 200 OK"
+2025-07-13 06:09:12,625 - INFO - HTTP Request: GET https://api.notion.com/v1/users "HTTP/1.1 200 OK"
+2025-07-13 06:09:12,791 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 400 Bad Request"
+2025-07-13 06:12:24,471 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-13 06:12:24,578 - INFO - logging in using static token
+2025-07-13 06:12:25,103 - INFO - Shard ID None has connected to Gateway (Session ID: 7c956a9bc0d68ae4bac1dc4d763949b4).
+2025-07-13 06:12:27,263 - INFO - Comandos sincronizados para o servidor 1366456386883551263.
+2025-07-13 06:12:27,263 - INFO - Iniciando o servidor de Webhooks em segundo plano...
+2025-07-13 06:12:27,265 - INFO - Servidor de Webhook iniciado na porta 8080.
+2025-07-13 06:12:27,266 - INFO - ✅ DiNo#1699 está online e pronto para uso!
+2025-07-13 06:12:27,294 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.31.128.8:8080
+2025-07-13 06:12:27,295 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 06:12:27,721 - INFO - 172.31.128.8 - - [13/Jul/2025 06:12:27] "[33mGET / HTTP/1.1[0m" 404 -
+2025-07-13 06:12:35,414 - INFO - HTTP Request: GET https://api.notion.com/v1/databases/22e3bffc59298016ac1ad8d52245a24a "HTTP/1.1 200 OK"
+2025-07-13 06:12:45,181 - INFO - HTTP Request: GET https://api.notion.com/v1/users "HTTP/1.1 200 OK"
+2025-07-13 06:12:45,475 - INFO - HTTP Request: GET https://api.notion.com/v1/users "HTTP/1.1 200 OK"
+2025-07-13 06:12:48,009 - INFO - HTTP Request: GET https://api.notion.com/v1/databases/22e3bffc59298016ac1ad8d52245a24a "HTTP/1.1 200 OK"
+2025-07-13 06:12:48,446 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-07-13 06:13:49,492 - INFO - Webhook do tipo 'page.updated' recebido.
+2025-07-13 06:13:49,493 - INFO - 172.31.128.8 - - [13/Jul/2025 06:13:49] "POST /notion-webhook HTTP/1.1" 200 -
+2025-07-13 06:13:50,631 - INFO - Webhook do tipo 'page.updated' recebido.
+2025-07-13 06:13:50,632 - INFO - 172.31.128.8 - - [13/Jul/2025 06:13:50] "POST /notion-webhook HTTP/1.1" 200 -
+2025-07-13 06:19:59,227 - INFO - HTTP Request: GET https://api.notion.com/v1/databases/22e3bffc59298016ac1ad8d52245a24a "HTTP/1.1 200 OK"
+2025-07-13 06:20:09,358 - INFO - HTTP Request: GET https://api.notion.com/v1/users "HTTP/1.1 200 OK"
+2025-07-13 06:20:10,340 - INFO - HTTP Request: GET https://api.notion.com/v1/users "HTTP/1.1 200 OK"
+2025-07-13 06:20:12,995 - INFO - HTTP Request: GET https://api.notion.com/v1/databases/22e3bffc59298016ac1ad8d52245a24a "HTTP/1.1 200 OK"
+2025-07-13 06:20:14,821 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-07-13 06:20:20,687 - INFO - HTTP Request: GET https://api.notion.com/v1/users "HTTP/1.1 200 OK"
+2025-07-13 06:20:20,962 - INFO - HTTP Request: GET https://api.notion.com/v1/users "HTTP/1.1 200 OK"
+2025-07-13 06:20:23,356 - INFO - HTTP Request: GET https://api.notion.com/v1/databases/22e3bffc59298016ac1ad8d52245a24a "HTTP/1.1 200 OK"
+2025-07-13 06:20:24,611 - INFO - HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2025-07-13 06:21:02,857 - INFO - HTTP Request: GET https://api.notion.com/v1/databases/22e3bffc59298016ac1ad8d52245a24a "HTTP/1.1 200 OK"
+2025-07-13 06:21:16,710 - INFO - Webhook do tipo 'page.updated' recebido.
+2025-07-13 06:21:16,711 - INFO - 172.31.128.8 - - [13/Jul/2025 06:21:16] "POST /notion-webhook HTTP/1.1" 200 -
+2025-07-13 06:21:16,885 - INFO - Webhook do tipo 'page.updated' recebido.
+2025-07-13 06:21:16,886 - INFO - 172.31.128.8 - - [13/Jul/2025 06:21:16] "POST /notion-webhook HTTP/1.1" 200 -
+2025-07-13 06:21:26,125 - INFO - Webhook do tipo 'page.updated' recebido.
+2025-07-13 06:21:26,126 - INFO - 172.31.128.8 - - [13/Jul/2025 06:21:26] "POST /notion-webhook HTTP/1.1" 200 -
+2025-07-13 06:21:28,031 - INFO - Webhook do tipo 'page.updated' recebido.
+2025-07-13 06:21:28,031 - INFO - 172.31.128.8 - - [13/Jul/2025 06:21:28] "POST /notion-webhook HTTP/1.1" 200 -
+2025-07-13 06:21:29,841 - INFO - HTTP Request: GET https://api.notion.com/v1/databases/22e3bffc59298016ac1ad8d52245a24a "HTTP/1.1 200 OK"
+2025-07-13 06:22:16,719 - INFO - HTTP Request: GET https://api.notion.com/v1/databases/22e3bffc59298016ac1ad8d52245a24a "HTTP/1.1 200 OK"
+2025-07-13 06:22:56,955 - INFO - HTTP Request: GET https://api.notion.com/v1/databases/22e3bffc59298016ac1ad8d52245a24a "HTTP/1.1 200 OK"
+2025-07-13 06:23:42,396 - INFO - Webhook do tipo 'page.updated' recebido.
+2025-07-13 06:23:42,397 - INFO - 172.31.128.8 - - [13/Jul/2025 06:23:42] "POST /notion-webhook HTTP/1.1" 200 -

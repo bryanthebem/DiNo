@@ -1,120 +1,155 @@
+# webhook_server.py (Versão Final com Lógica de Regras Dinâmicas)
+
 import logging
 import threading
 import asyncio
-from flask import Flask, request
+from flask import Flask, request, jsonify
 import discord
-from discord.ext import commands  # <-- ADICIONADO AQUI
+from discord.ext import commands
 
-# Importações dos seus módulos existentes
 from notion_integration import NotionIntegration
 from config_utils import load_config
 import json
 import re
 
-# Função para extrair o ID do Tópico de uma URL do Discord
 def extract_thread_id_from_url(url: str) -> int | None:
-    if not url:
-        return None
+    if not url: return None
     match = re.search(r'/(\d+)$', url)
     return int(match.group(1)) if match else None
 
 class WebhookServer:
-    def __init__(self, bot: commands.Bot, notion_integration: NotionIntegration): # <-- CORRIGIDO AQUI
+    def __init__(self, bot: commands.Bot, notion_integration: NotionIntegration):
         self.app = Flask(__name__)
         self.bot = bot
         self.notion = notion_integration
-        # Adiciona a rota que o Notion irá chamar.
-        # Note que o endpoint é assíncrono para interagir com o bot.
+        # Adiciona uma rota para o webhook do Notion, aceitando apenas POST
         self.app.route("/notion-webhook", methods=["POST"])(self.handle_notion_webhook)
 
     def run(self):
-        """Roda o servidor Flask em uma thread separada para não bloquear o bot."""
+        # Inicia o servidor Flask em uma thread separada para não bloquear o bot
         threading.Thread(target=lambda: self.app.run(host='0.0.0.0', port=8080), daemon=True).start()
         logging.info("Servidor de Webhook iniciado na porta 8080.")
 
     def find_config_for_database(self, database_id: str) -> dict | None:
-        """Encontra a configuração de canal correspondente a um ID de banco de dados do Notion."""
+        """Encontra a configuração do bot (servidor/canal) para um ID de banco de dados Notion."""
         try:
             with open('configs.json', 'r', encoding='utf-8') as f:
                 all_configs = json.load(f)
-            
+            # Itera por todas as configurações de todos os servidores
             for server_id, server_config in all_configs.items():
                 for channel_id, channel_config in server_config.get("channels", {}).items():
-                    if 'notion_url' not in channel_config:
-                        continue
+                    if 'notion_url' not in channel_config: continue
+                    # Extrai o ID do banco de dados da URL salva e compara
                     db_id_from_url = self.notion.extract_database_id(channel_config['notion_url'])
                     if db_id_from_url == database_id:
-                        # Retorna a config e adiciona os IDs para uso posterior
+                        # Se encontrar, anexa os IDs do Discord à config e retorna
                         channel_config['guild_id'] = server_id
                         channel_config['channel_id'] = channel_id
                         return channel_config
-        except (FileNotFoundError, json.JSONDecodeError) as e:
-            logging.error(f"Erro ao ler configs.json: {e}")
-            return None
+        except (FileNotFoundError, json.JSONDecodeError): return None
         return None
 
-    async def process_notification(self, data: dict):
-        """Função assíncrona que processa a lógica da notificação."""
+    def format_message(self, template: str, page_details: dict) -> str:
+        """Substitui placeholders no template da mensagem com dados reais do card."""
+        properties = page_details.get('properties', {})
+
+        # Encontra o nome da propriedade de título dinamicamente
+        title_prop_name = next((name for name, data in properties.items() if data.get('type') == 'title'), 'Nome')
+        card_title = self.notion.extract_value_from_property(properties.get(title_prop_name, {}), 'title')
+
+        message = template.replace('{card_title}', card_title)
+
+        # Adiciona a substituição de outras variáveis se necessário no futuro
+        # Ex: {user_name}, {card_url}, etc.
+
+        return message
+
+    async def process_page_update(self, data: dict):
+        """Processa as regras de notificação para um evento de atualização de página."""
         try:
-            # 1. Extrair IDs do payload do Notion
-            page_id = data.get('page', {}).get('id')
-            database_id = data.get('database', {}).get('id')
+            page_id = data.get('id')
+            database_id = data.get('parent', {}).get('database_id')
+            if not page_id or not database_id: return
 
-            if not page_id or not database_id:
-                logging.warning("Webhook recebido sem ID de página ou de banco de dados.")
-                return
-
-            # 2. Encontrar a configuração do bot para este banco de dados
+            # Encontra a configuração do canal associada a este banco de dados
             config = self.find_config_for_database(database_id)
-            if not config:
-                logging.info(f"Nenhuma configuração encontrada para o database {database_id}.")
-                return
+            if not config: return
 
-            # 3. Lógica da Notificação em Tópico
-            if config.get("topic_notifications_enabled"):
-                logging.info(f"Processando notificação de tópico para a página {page_id}")
-                
-                # Pega o nome da propriedade que armazena o link do tópico
-                topic_prop_name = config.get('topic_link_property_name')
-                if not topic_prop_name:
-                    logging.warning(f"Notificação de tópico habilitada, mas nenhuma propriedade de link definida para o canal {config['channel_id']}.")
-                    return
+            rules = config.get('notification_rules', [])
+            if not rules: return # Se não há regras, não faz nada
 
-                # Busca os dados atualizados da página no Notion
-                page_details = self.notion.get_page(page_id)
-                page_properties = page_details.get('properties', {})
-                
-                # Extrai a URL do tópico da propriedade correta
-                topic_link_prop = page_properties.get(topic_prop_name)
-                if not topic_link_prop:
-                    return 
+            logging.info(f"Verificando {len(rules)} regra(s) para a página {page_id}")
 
-                topic_url = self.notion.extract_value_from_property(topic_link_prop, topic_link_prop['type'])
-                thread_id = extract_thread_id_from_url(topic_url)
+            page_properties = data.get('properties', {})
 
-                if thread_id:
-                    # Tenta obter o canal (tópico) no Discord
-                    thread = self.bot.get_channel(thread_id) or await self.bot.fetch_channel(thread_id)
-                    
-                    if thread:
-                        display_props = config.get('display_properties', [])
-                        embed = self.notion.format_page_for_embed(page_details, display_props)
-                        
-                        await thread.send("🔔 **Card Atualizado no Notion!**", embed=embed)
-                        logging.info(f"Notificação enviada para o tópico {thread_id}.")
-                    else:
-                        logging.warning(f"Não foi possível encontrar o tópico com ID {thread_id}.")
-            
-            # TODO: Implementar lógica para "Canal Fixo" e "DM" aqui, se desejar.
+            # Itera sobre cada regra que o usuário criou
+            for rule in rules:
+                trigger_prop_name = rule.get('trigger_property_name')
+                trigger_value_name = rule.get('trigger_value_name')
+
+                if not trigger_prop_name or not trigger_value_name:
+                    continue # Pula regras mal configuradas
+
+                # Pega os dados da propriedade que a regra está monitorando
+                prop_data = page_properties.get(trigger_prop_name)
+                if not prop_data:
+                    continue
+
+                # Extrai o valor atual da propriedade que foi alterada
+                current_value = self.notion.extract_value_from_property(prop_data, prop_data['type'])
+
+                # A CONDIÇÃO PRINCIPAL: O valor atual da propriedade é igual ao valor do gatilho da regra?
+                if current_value.lower() == trigger_value_name.lower():
+                    logging.info(f"Regra satisfeita! Gatilho: '{trigger_prop_name}' é '{trigger_value_name}'.")
+
+                    # Se a condição foi satisfeita, formata a mensagem e envia
+                    message = self.format_message(rule.get('message_template', ''), data)
+                    message = message.replace('{trigger_value}', current_value) # Substitui o valor do gatilho
+
+                    # Descobre para qual tópico enviar a mensagem
+                    topic_prop_name = config.get('topic_link_property_name')
+                    if not topic_prop_name: continue
+
+                    topic_link_prop = page_properties.get(topic_prop_name)
+                    if not topic_link_prop: continue
+
+                    topic_url = self.notion.extract_value_from_property(topic_link_prop, topic_link_prop['type'])
+                    thread_id = extract_thread_id_from_url(topic_url)
+
+                    if thread_id:
+                        # Busca o tópico no Discord e envia a mensagem
+                        thread = self.bot.get_channel(thread_id) or await self.bot.fetch_channel(thread_id)
+                        if thread:
+                            await thread.send(message)
+                            logging.info(f"Notificação da regra '{rule['rule_id'][:8]}' enviada para o tópico {thread_id}.")
+
+                    # Para a verificação após encontrar a primeira regra que corresponde
+                    # para evitar enviar múltiplas notificações para a mesma atualização.
+                    break
 
         except Exception as e:
-            logging.error(f"Erro ao processar webhook do Notion: {e}", exc_info=True)
+            logging.error(f"Erro CRÍTICO ao processar atualização de página: {e}", exc_info=True)
 
-    async def handle_notion_webhook(self):
-        """Endpoint que recebe a chamada do Notion."""
+    def handle_notion_webhook(self):
         if request.method == 'POST':
-            # Delega o processamento para uma função async que pode interagir com o bot
-            # Usa run_coroutine_threadsafe para chamar código async de uma thread sync (Flask)
-            asyncio.run_coroutine_threadsafe(self.process_notification(request.json), self.bot.loop)
+            data = request.json
+
+            # O Notion envia um desafio na primeira vez que você configura o webhook.
+            # Este código responde ao desafio para confirmar a URL.
+            if data and data.get("type") == "url_verification":
+                challenge = data.get("challenge")
+                logging.info(f"Recebido desafio de verificação do Notion: {challenge}")
+                return jsonify({"challenge": challenge})
+
+            # --- LÓGICA ATUALIZADA ---
+            # O payload de atualização de propriedade vem direto no corpo da requisição
+            # Assumimos que é uma atualização de página/propriedade
+            event_type = data.get('event', 'page.updated')
+            logging.info(f"Webhook do tipo '{event_type}' recebido.")
+            if event_type == "page.updated":
+                 # Roda a lógica de processamento de forma segura para não travar o bot
+                asyncio.run_coroutine_threadsafe(self.process_page_update(data.get('page', data)), self.bot.loop)
+
             return "OK", 200
+
         return "Método não permitido", 405

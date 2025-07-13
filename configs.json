@@ -254,31 +254,7 @@
                 "topic_link_property_name": "Link do topico",
                 "individual_person_prop": "Respons\u00e1vel",
                 "collective_person_prop": "Pessoa",
-                "ai_summary_enabled": true,
-                "notification_rules": [
-                    {
-                        "rule_id": "685ab17d-1054-420c-be5b-b8c13ae45ef3",
-                        "trigger_property_name": "Situa\u00e7\u00e3o",
-                        "trigger_value_name": "Em andamento",
-                        "action_type": "send_to_topic",
-                        "message_template": "\u2705 O status do card '{card_title}' foi atualizado para '{trigger_value}'."
-                    },
-                    {
-                        "rule_id": "0b4fcf9a-8623-4c22-985c-1ef5e18d387e",
-                        "trigger_property_name": "Prioridade",
-                        "trigger_value_name": "Alta",
-                        "action_type": "send_to_channel",
-                        "message_template": "\u2705 O status do card '{card_title}' foi atualizado para '{trigger_value}'."
-                    },
-                    {
-                        "rule_id": "f620ae64-7e9a-45cf-90ec-4ed4dbad8f61",
-                        "trigger_property_name": "Prioridade",
-                        "trigger_value_name": "M\u00e9dia",
-                        "action_type": "dm_responsible",
-                        "responsible_person_prop": "Pessoa",
-                        "message_template": "\u2705 O status do card '{card_title}' foi atualizado para '{trigger_value}'."
-                    }
-                ]
+                "ai_summary_enabled": true
             }
         }
     }

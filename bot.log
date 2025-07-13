@@ -1,0 +1,24 @@
+2025-07-12 22:57:10,503 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-12 22:57:10,914 - INFO - logging in using static token
+2025-07-12 22:57:11,883 - INFO - Shard ID None has connected to Gateway (Session ID: 8bde36b6bc4ca7a30a8a1241f3bc0d84).
+2025-07-12 22:57:14,122 - INFO - Comandos sincronizados para o servidor 1366456386883551263.
+2025-07-12 22:57:14,123 - INFO - Iniciando o servidor de Webhooks em segundo plano...
+2025-07-12 22:57:14,127 - INFO - Servidor de Webhook iniciado na porta 8080.
+2025-07-12 22:57:14,127 - INFO - ✅ DiNo#1699 está online e pronto para uso!
+2025-07-12 22:57:14,153 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.100.238:8080
+2025-07-12 22:57:14,153 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-12 22:57:53,596 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-12 22:57:53,999 - INFO - logging in using static token
+2025-07-12 22:57:54,846 - INFO - Shard ID None has connected to Gateway (Session ID: 0e868c1d637b50f1d1d33f112d104bf9).
+2025-07-12 22:57:57,071 - INFO - Comandos sincronizados para o servidor 1366456386883551263.
+2025-07-12 22:57:57,072 - INFO - Iniciando o servidor de Webhooks em segundo plano...
+2025-07-12 22:57:57,074 - INFO - Servidor de Webhook iniciado na porta 8080.
+2025-07-12 22:57:57,075 - INFO - ✅ DiNo#1699 está online e pronto para uso!
+2025-07-12 22:57:57,089 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.100.238:8080
+2025-07-12 22:57:57,089 - INFO - [33mPress CTRL+C to quit[0m

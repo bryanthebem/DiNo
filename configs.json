@@ -163,6 +163,98 @@
                     "Respons\u00e1vel",
                     "Prioridade"
                 ]
+            },
+            "1393459519321018370": {
+                "notion_url": "https://www.notion.so/22e3bffc59298016ac1ad8d52245a24a?v=22e3bffc592980faa8ea000cb2a64734&source=copy_link",
+                "create_properties": [
+                    "Nome",
+                    "Situa\u00e7\u00e3o",
+                    "Defini\u00e7\u00e3o",
+                    "Prioridade",
+                    "Respons\u00e1vel",
+                    "Link do t\u00f3pico",
+                    "Prazo Original"
+                ],
+                "display_properties": [
+                    "Situa\u00e7\u00e3o",
+                    "Nome",
+                    "Defini\u00e7\u00e3o",
+                    "Respons\u00e1vel",
+                    "Prioridade",
+                    "Prazo Original",
+                    "Link do t\u00f3pico"
+                ]
+            },
+            "1393463193564610671": {
+                "notion_url": "https://www.notion.so/22e3bffc59298016ac1ad8d52245a24a?v=22e3bffc592980faa8ea000cb2a64734&source=copy_link",
+                "create_properties": [
+                    "Nome",
+                    "Situa\u00e7\u00e3o",
+                    "Defini\u00e7\u00e3o",
+                    "Prioridade",
+                    "Respons\u00e1vel",
+                    "Link do t\u00f3pico",
+                    "Prazo Original"
+                ],
+                "display_properties": [
+                    "Nome",
+                    "Situa\u00e7\u00e3o",
+                    "Defini\u00e7\u00e3o",
+                    "Prioridade",
+                    "Respons\u00e1vel",
+                    "Link do t\u00f3pico",
+                    "Prazo Original"
+                ],
+                "action_buttons_enabled": false
+            },
+            "1393463284447055882": {
+                "notion_url": "https://www.notion.so/22e3bffc59298016ac1ad8d52245a24a?v=22e3bffc592980faa8ea000cb2a64734&source=copy_link",
+                "create_properties": [
+                    "Respons\u00e1vel",
+                    "Link do topico",
+                    "Prazo Original",
+                    "Prioridade",
+                    "Situa\u00e7\u00e3o",
+                    "Nome"
+                ],
+                "display_properties": [
+                    "Link do topico",
+                    "Nome",
+                    "Situa\u00e7\u00e3o",
+                    "Defini\u00e7\u00e3o",
+                    "Prioridade",
+                    "Respons\u00e1vel"
+                ],
+                "action_buttons_enabled": false,
+                "topic_link_property_name": "Texto",
+                "individual_person_prop": "Respons\u00e1vel",
+                "collective_person_prop": "Pessoa"
+            },
+            "1393463246094340136": {
+                "notion_url": "https://www.notion.so/22e3bffc59298016ac1ad8d52245a24a?v=22e3bffc592980faa8ea000cb2a64734&source=copy_link",
+                "create_properties": [
+                    "Nome",
+                    "Pessoa",
+                    "Situa\u00e7\u00e3o",
+                    "Defini\u00e7\u00e3o",
+                    "Prioridade",
+                    "Respons\u00e1vel",
+                    "Prazo Original"
+                ],
+                "display_properties": [
+                    "Nome",
+                    "Pessoa",
+                    "Situa\u00e7\u00e3o",
+                    "Defini\u00e7\u00e3o",
+                    "Prioridade",
+                    "Respons\u00e1vel",
+                    "Prazo Original"
+                ],
+                "action_buttons_enabled": false,
+                "topic_link_property_name": "Link do topico",
+                "individual_person_prop": "Respons\u00e1vel",
+                "collective_person_prop": "Pessoa",
+                "ai_summary_enabled": true
             }
         }
     }
